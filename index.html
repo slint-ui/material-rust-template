@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!-- Copyright © SixtyFPS GmbH <info@slint.dev> -->
+<!-- SPDX-License-Identifier: MIT -->
+
+<html>
+  <head>
+    <title>Slint Material 3 Gallery  (Web Assembly version)</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      canvas {
+        width: 100dvw !important;
+        height: 100dvh !important;
+        background: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- canvas required by the Slint runtime -->
+    <canvas id="canvas"></canvas>
+    <script type="module">
+      // import the generated file.
+      import init from "./pkg/gallery_lib.js";
+      init();
+    </script>
+  </body>
+</html>
