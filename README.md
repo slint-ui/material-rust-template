@@ -4,7 +4,7 @@ A template for a Rust Application using Slint with [material components](https:/
 
 ## About
 
-This template helps you get started developing a Rust application with Slint as toolkit
+This template helps you get started developing a Rust application with Slint as a toolkit
 for the user interface and the material component set. It demonstrates the integration between the `.slint`
 UI markup and Rust code, how to react to callbacks, get and set properties, and use of all available
 material components for Slint.
