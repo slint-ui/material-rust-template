@@ -11,7 +11,7 @@ material components for Slint.
 
 ## Disclaimer
 
-The material components are currently available as technical preview. Some components are still missing and changes to the api
+The material components are currently available as a technical preview. Some components are still missing and changes to the api
 are possible. We will inform as soon as the component set is read for release.
 
 ## Usage
