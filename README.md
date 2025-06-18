@@ -67,5 +67,5 @@ We hope that this template helps you get started, and that you enjoy exploring m
 about the Slint APIs and the `.slint` markup language, check out our [online documentation](https://slint.dev/docs). Check out
 also the [material components documentation](https://material.slint.dev/docs)
 
-Don't forget to edit this readme to replace it by yours, and edit the `name =` field in `Cargo.toml` to match the name of your
+Don't forget to replace the contents of this readme with your own project details. As well as dit the `name =` field in `Cargo.toml` to match the name of your
 project.
