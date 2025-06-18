@@ -27,8 +27,6 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
     cd my-project    
     ```
 
-    ````
-
 ## Run your application on desktop
 
 1. Build with `cargo`:
