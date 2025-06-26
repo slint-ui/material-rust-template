@@ -69,7 +69,7 @@ cargo apk run --target aarch64-linux-android --lib
 
 We hope that this template helps you get started, and that you enjoy exploring making user interfaces with Slint. To learn more
 about the Slint APIs and the `.slint` markup language, check out our [online documentation](https://slint.dev/docs). Check out
-also the [material components documentation](https://material.slint.dev/docs)
+also the [material components documentation](https://material.slint.dev/overview/)
 
 Don't forget to replace the contents of this readme with your own project details. As well as dit the `name =` field in `Cargo.toml` to match the name of your
 project.
