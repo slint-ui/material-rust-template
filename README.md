@@ -21,15 +21,11 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
 1. Install Rust by following its [getting-started guide](https://www.rust-lang.org/learn/get-started).
    Once this is done, you should have the `rustc` compiler and the `cargo` build system installed in your `PATH`.
 2. Clone this repository
-   
+
    ```sh
-   git clone --recurse-submodules https://github.com/slint-ui/material-rust-template.git
+   git clone --recurse-submodules https://github.com/slint-ui/material-rust-template.git my-project
+   cd my-project
    ```
-4. Rename the extracted directory and change into it:
-    ```
-    mv material-rust-template my-project
-    cd my-project    
-    ```
 
 ## Run your application on desktop
 
@@ -37,7 +33,7 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
     ```
     cargo build
     ```
-    
+
 2. Run the application binary:
 
     ```
