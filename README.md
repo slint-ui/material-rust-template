@@ -1,18 +1,11 @@
 # Material Components for Slint Rust Template
 
-A template for a Rust Application using Slint with [material components](https://github.com/slint-ui/material-components). Based on the material gallery. 
+A template for a Rust Application using Slint with [material components](https://github.com/slint-ui/slint/tree/master/ui-libraries/material).
 
 ## About
 
 This template helps you get started developing a Rust application with Slint as a toolkit
-for the user interface and the material component set. It demonstrates the integration between the `.slint`
-UI markup and Rust code, how to react to callbacks, get and set properties, and use of all available
-material components for Slint.
-
-## Disclaimer
-
-The material components are currently available as a technical preview. Some components are still missing and changes to the api
-are possible. We will inform as soon as the component set is read for release.
+for the user interface and the material component set.
 
 ## Usage
 
@@ -20,10 +13,10 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
 
 1. Install Rust by following its [getting-started guide](https://www.rust-lang.org/learn/get-started).
    Once this is done, you should have the `rustc` compiler and the `cargo` build system installed in your `PATH`.
-2. Clone this repository
+2. Download and extract the [ZIP archive of this repository](https://github.com/slint-ui/material-rust-template/archive/refs/heads/master.zip).
 
    ```sh
-   git clone --recurse-submodules https://github.com/slint-ui/material-rust-template.git my-project
+   mv material-rust-template-master my-project
    cd my-project
    ```
 
@@ -67,5 +60,6 @@ We hope that this template helps you get started, and that you enjoy exploring m
 about the Slint APIs and the `.slint` markup language, check out our [online documentation](https://slint.dev/docs). Check out
 also the [material components documentation](https://material.slint.dev/overview/)
 
-Don't forget to replace the contents of this readme with your own project details. As well as dit the `name =` field in `Cargo.toml` to match the name of your
-project.
+Don't forget to replace the contents of this readme with your own project details.
+(Containing a screenshot of your application if you want to.)
+As well as edit the `name =` field in `Cargo.toml` to match the name of your project.
