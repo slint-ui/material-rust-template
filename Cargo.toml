@@ -13,14 +13,14 @@ path = "src/main.rs"
 name = "my_app"
 
 [dependencies]
-slint = { version = "1.13", features = ["backend-android-activity-06"] }
+slint = { version = "1.18", features = ["backend-android-activity-06"] }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
 wasm-bindgen = { version = "0.2" }
 console_error_panic_hook = "0.1.5"
 
 [build-dependencies]
-slint-build = { version = "1.13"  }
+slint-build = { version = "1.18" }
 
 [package.metadata.android]
 package = "dev.slint.material_template"
