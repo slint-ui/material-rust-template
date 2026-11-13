@@ -1,0 +1,7 @@
+{
+    "edition": "1.19",
+    "main": "ui/main.slint",
+    "library-paths": {
+        "material": "material-1.1.0/material.slint"
+    }
+}
